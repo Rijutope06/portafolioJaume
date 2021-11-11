@@ -1,0 +1,43 @@
+
+.card-testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 24px;
+  padding-block-end: 24px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(39px);
+  border-top: 4px solid rgba(255, 255, 255, 0.2);
+  border-left: 4px solid rgba(255, 255, 255, 0.2);
+}
+
+.card-testimonial figure {
+  align-self: center;
+}
+
+.testimonail-opinition {
+  font: var(--headline4);
+  margin: 24px 0;
+}
+
+.testimonial-nameCargo {
+  font: var(--headline5);
+}
+
+@media screen and (min-width: 768px) {
+  .card-testimonial img {
+    inline-size: 80px;
+    block-size: 80px;
+  }
+
+  .card-testimonial-description {
+    max-inline-size: 972px;
+    border: 1px solid;
+    padding-inline-start: 80px;
+    padding-inline-end: 80px;
+    background-color: red;
+  }
+}

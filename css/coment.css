@@ -1,0 +1,27 @@
+.coment {
+  text-align: center;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+}
+
+.coment-frase1 {
+  font: var(--headline5Normal);
+}
+
+.coment-frase2 {
+  font: var(--headline5);
+}
+
+@media screen and (min-width: 768px) {
+  .coment {
+    padding-block-start: 200px;
+    padding-block-end: 200px;
+  }
+
+  .coment-frase1 {
+    max-inline-size: 700px;
+    margin: 0 auto;
+  }
+}
